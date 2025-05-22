@@ -6,7 +6,7 @@ on:
     types: [opened]
 jobs:
   run:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-WINDOWS-mobile
     permissions:
       issues: write
       pull-requests: write
@@ -17,3 +17,6 @@ jobs:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           assignees: T-R0052
           numOfAssignee: 1
+
+
+
